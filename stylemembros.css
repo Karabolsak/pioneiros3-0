@@ -113,8 +113,8 @@ header {
 .div-principal {
     background-color: transparent;
     font-family: var(--font3);
-    width: 555px;
-    height: 250px;
+    max-width: 555px;
+    max-height: 600px;
     display: flex;
     margin: auto;
     flex-direction: row;
@@ -126,14 +126,14 @@ header {
 .padrao-img {
     border: 1px solid black;
     max-width: 1000px;
-    max-height: 300px;
+    max-height: 600px;
     background-color: rgba(0, 0, 0, 0.363);
     color: white;
 }
 .padrao {
     border: 1px solid black;
     max-width: 1000px;
-    max-height: 300px;
+    max-height: 600px;
     background-color: #ffffff00;
 }
 .primeiro {
